@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
 
 
 	//
-	//  Eksempel på det motsatte: Finn RVA basert på FilOffset.
+	//	Eksempel på det motsatte: Finn RVA basert på FilOffset.
 	//	Finn første seksjon som har VirtualAddress mindre enn RVA som jeg kan regne fra. Typisk .text seksjonen.
 	//	VirtualAddress representerer første byte i seksjonen etter innlasting i minne i relasjon til imagebase.
 	//
